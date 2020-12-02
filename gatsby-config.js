@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Blog Spot`,
@@ -5,6 +7,13 @@ module.exports = {
     author: `@menaji`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: "00l2npsdflq9",
+        accessToken: "Ww6KDoG7EGo7iPPMQAhINCP8Lu07UeqlARkxXiXHzE8"
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
