@@ -6,7 +6,7 @@ import { INLINES, BLOCKS } from "@contentful/rich-text-types"
 import { withAuthenticationRequired } from "@auth0/auth0-react"
 
 export const data = graphql`
-    query($slug: String!) {
+    query($slug: String!) { 
         contentfulBlogPost(slug: {eq: $slug}) {
             author
             publishedDate(fromNow: true)
