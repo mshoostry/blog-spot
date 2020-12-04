@@ -2,8 +2,8 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    title: `Blog Spot`,
-    description: `A High-Quality Blog for The Modern Age.`,
+    title: `A Blogger's Arena`,
+    description: `"In the midst of difficulty lies opportunity” – Albert Einstein`,
     author: `@menaji`,
   },
   plugins: [
