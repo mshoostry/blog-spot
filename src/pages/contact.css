@@ -1,0 +1,7 @@
+img {
+        border: thick solid #654321;
+        border-radius: 50px 20px;
+        position: fixed;
+        top: 12em;
+        right: 2em;
+}

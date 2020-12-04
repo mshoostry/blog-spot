@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import butterFly from "../images/butterFly.jpg"
 
+import "./contact.css"
+
 const Contact = () => {
     return (
         <Layout>
