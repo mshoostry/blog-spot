@@ -54,9 +54,14 @@ const Blog = () => {
                     </div>
                 )
             }
-
+             
+            <div>
+            <Link to="/">Back to Home page</Link>
+            </div>
         </Layout>
+       
     )
 }
+
 
 export default Blog

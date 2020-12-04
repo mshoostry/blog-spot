@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const About = () => {
     return (
         <Layout>
-            <SEO title="About" />
+            <SEO title="About Me" />
             <h1 style={{ fontStyle: "italic", fontWeight: 600, textAlign: "center" }}>Welcome!!!</h1>
             <p style={{ fontStyle: "italic", textAlign: "center", color: "green", fontSize: "2rem" }}>A bit about Me!!</p>
             <p>I'm Mehnaz. Variety is the spice of life, thus my interest in different kind of hobbies and activities keep me busy.
@@ -19,7 +19,7 @@ const About = () => {
                 individuals and their share of life encounters.</p>
             <p>I created this blog site to share some of my thoughts. Hopefully, you will enjoy reading my blogs, as much as 
                 I enjoyed creating them</p>
-                <Link to="/">Go Home</Link>
+                <Link to="/">Back to Home page</Link>
         </Layout>
     )
 }

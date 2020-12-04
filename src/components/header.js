@@ -29,7 +29,7 @@ const Header = ({ siteTitle, siteDescription, about, contact, blog }) => (
           {siteTitle}
         </Link>
       </h1>
-        <h3 style={{color: `rgba(223,227,235,0.4)`, margin: `0 0 0 0.9rem`, textAlign: `center`}}>{siteDescription}</h3>
+        <h3 style={{color: `blue`, margin: `0 0 0 0.9rem`, textAlign: `center`}}>{siteDescription}</h3>
         <div style={{margin: `0 auto`, maxWidth: 960, padding: `1.45rem 1.08rem`, display: `flex`}}>
           <h4 style={{marginRight: `0.9rem`}}>
         <Link to="/about" className={headerStyles.link}>{about}</Link>

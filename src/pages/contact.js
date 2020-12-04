@@ -6,10 +6,13 @@ import SEO from "../components/seo"
 const Contact = () => {
     return (
         <Layout>
-            <SEO title="Contact" />
-            <h1>Contact</h1>
-            <p>This page is the contact page.</p>
-            <Link to="/">Go Home</Link>
+            <SEO title="Contact Us" />
+            <h1>Contact Details</h1>
+            <p>Our Address</p>
+            <p>9865 Blogger's Roads</p>
+			<p>Blogging Me City, Tx 679843</p>
+			<p>469.888.1234</p>
+            <Link to="/">Back to Home page</Link>
         </Layout>
     )
 }
