@@ -7,7 +7,7 @@ import { withAuthenticationRequired } from "@auth0/auth0-react"
 
 export const data = graphql`
     query($slug: String!) { 
-        allContentfulBlogPost(sort: {fields: publishedDate, order: DESC}, filter: {node_locale: {eq: "en-US"}})
+        
         contentfulBlogPost(slug: {eq: $slug}) {
             author
             publishedDate(fromNow: true)
