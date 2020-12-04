@@ -23,7 +23,7 @@ const Blog = () => {
       }
     }
   `)
-    return (
+    return (   
         <Layout>
             {
                 !isAuthenticated && (
@@ -56,10 +56,11 @@ const Blog = () => {
             }
              
             <div>
+            <p style={{fontWeight: 600}}>Please login to view our blogs!!!</p>
             <Link to="/">Back to Home page</Link>
             </div>
         </Layout>
-       
+      
     )
 }
 
