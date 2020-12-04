@@ -3,6 +3,9 @@ import Layout from "../components/layout"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { useAuth0 } from "@auth0/auth0-react"
+import faces from "../images/faces.jpg"
+
+import "./blog.css"
 
 
 const Blog = () => {
@@ -57,6 +60,7 @@ const Blog = () => {
              
             <div>
             <p style={{fontWeight: 600}}>Please login to view our blogs!!!</p>
+            <img src={faces} alt="Faces" />
             <Link to="/">Back to Home page</Link>
             </div>
         </Layout>

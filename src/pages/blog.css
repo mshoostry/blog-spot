@@ -1,0 +1,10 @@
+
+img {
+    width: 300px;
+	background-color: #FFEDD0;
+	border: thick solid #654321;
+	border-radius:50px 20px;
+	padding: .5em;
+	float: right;
+	margin: 1em 2em;
+}
