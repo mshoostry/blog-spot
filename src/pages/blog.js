@@ -26,9 +26,9 @@ const Blog = () => {
       }
     }
   `)
-    return (   
+    return (  
         <Layout>
-            <div><p style={{fontWeight: 600}}>Please login to view our blogs!!!</p></div>
+           
             {
                 !isAuthenticated && (
                     <button onClick={() => loginWithRedirect()}>Log In</button>
@@ -62,6 +62,7 @@ const Blog = () => {
              
             <div>
             {/* <img src={faces} alt="Faces" /> */}
+            <p style={{fontWeight: 600}}>Please login to view our blogs!!!</p>
             <Link to="/">Back to Home page</Link>
             </div>
         </Layout>
