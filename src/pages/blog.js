@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { useAuth0 } from "@auth0/auth0-react"
-import faces from "../images/faces.jpg"
+// import faces from "../images/faces.jpg"
 
 import "./blog.css"
 
@@ -61,7 +61,7 @@ const Blog = () => {
             }
              
             <div>
-            <img src={faces} alt="Faces" />
+            {/* <img src={faces} alt="Faces" /> */}
             <Link to="/">Back to Home page</Link>
             </div>
         </Layout>
